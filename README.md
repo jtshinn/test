@@ -1,7 +1,7 @@
 云计算部署docker  
-# 1.复制文件  
+## 1.复制文件  
 $ git clone https://github.com/jtshinn/test.git  
-$ cd test 
+$ cd test  
 $ cd shouxie_tf1_flask_docker  
 ## 2.构建docker镜像  
 $ docker build -t shouxie_app .  
