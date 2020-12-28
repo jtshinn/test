@@ -1,12 +1,11 @@
 # base image
-FROM ubuntu:latest
+FROM hejunpku/tensorflow1.70-cp36:latest
 # ADD
 ADD hello.sh /hello.sh
 # MAINTAINER
 MAINTAINER xiaoqin
 # RUN
-RUN chmod +x /hello.sh
-RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+RUN
 # build
 RUN apt -y  update --fix-missing && apt -y full-upgrade --fix-missing \
 && apt -y install --fix-missing build-essential \
