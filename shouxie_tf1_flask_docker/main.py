@@ -51,4 +51,4 @@ def main():
 
 
 if __name__ == '__main__':
-    app.run(host='localhost', port=7070)
+    app.run(host='0.0.0.0', port=7070)
