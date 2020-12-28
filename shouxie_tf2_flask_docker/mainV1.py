@@ -1,5 +1,5 @@
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from flask import Flask, jsonify, render_template, request
 
 from mnist import model
