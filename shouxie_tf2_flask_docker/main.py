@@ -3,7 +3,6 @@ import tensorflow.compat.v1 as tf
 from flask import Flask, jsonify, render_template, request
 
 from mnist import model
-tf.compat.v1.disable_eager_execution()
 
 x = tf.placeholder("float", [None, 784])
 #
