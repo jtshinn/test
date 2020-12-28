@@ -14,5 +14,5 @@ $ `docker run -it --rm -p 7070:7070 shouxie_app`
 ***
 ## 备注
 > 本来requirement里面还应该有一句  
-> `tensorflow==1.7.0`
+> `tensorflow==1.7.0`  
 > 但服务器装不上去(被kill了)，就直接删掉了
