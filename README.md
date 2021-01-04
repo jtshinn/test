@@ -1,4 +1,5 @@
 云计算部署docker  
+进入你的主机输入以下命令行：  
 ## 1.复制文件  
 $ `git clone https://github.com/jtshinn/test.git`  
 $ `cd test`  
